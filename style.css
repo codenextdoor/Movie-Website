@@ -23,7 +23,7 @@ body {
 .navbar-container {
   display: flex;
   align-items: center;
-
+  font-family: "Sen";
   padding: 0 50px;
   height: 100%;
   color: white;
@@ -40,5 +40,35 @@ body {
 }
 
 .profile-container {
+  display: flex;
   flex: 2;
+  align-items: center;
+  justify-content: flex-end;
+}
+.profile-text-container {
+  margin: 0 20px;
+}
+.menu-lists {
+  display: flex;
+  list-style: none;
+}
+.menu-list-items {
+  margin-right: 30px;
+}
+.menu-list-items.active {
+  font-weight: bold;
+}
+
+.profile-pic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.toggle {
+  width: 40px;
+  height: 20px;
+  background-color: white;
+  border-radius: 30px;
 }
