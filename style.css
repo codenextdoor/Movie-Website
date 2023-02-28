@@ -92,6 +92,7 @@ body {
   right: 1px;
   border-radius: 50%;
   cursor: pointer;
+  transition: 1s ease all;
 }
 .left-menu-icon {
   color: white;
